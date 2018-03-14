@@ -1,0 +1,179 @@
+h2 {
+	display: none;
+}
+#block-menu-menu-secondary-menu ul {
+	display: inline-flex;
+	float: right;
+}
+.full-width {
+	background-color: #0f1a23;
+}
+.region-my-region-1, .region-my-region-2, .region-my-region-3 {
+	width: 33%;
+	float: left;
+}
+.region-my-region-1 ul {
+	list-style-type: none;
+  display: inline-flex;
+  padding: 0px;
+}
+.region-my-region-1 ul h6 {
+	color: #c9dd03;
+	float: right;
+  font-size: 17px;
+  margin-left: 60px;
+  margin-top: 27px;
+}
+.region-my-region-2 input {
+	border-radius: 17px;
+}
+.region-my-region-2 button {
+	border-radius: 17px;
+}
+.region-my-region-2 .glyphicon-search {
+	color: #c9dd03;
+}
+.region-my-region-2 .btn-primary {
+	background-color: #fff;
+	border-color: #ccc;
+}
+.region-my-region-2 .form-search.content-search {
+	width: 114%;
+	margin-top: 15px !important;
+}
+.navbar.container {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.navbar-default {
+	background-color: #0f1a23;
+	border-color: #0f1a23;
+	padding: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+.region-footer-image img {
+	width: 100%;
+}
+.region-footer ul.after-image {
+	list-style-type: none;
+	display: inline-flex;
+}
+.region-footer ul h6 {
+	font-size: 25px;
+	color: #c9dd03;
+}
+.footer.container {
+	border-top: none;
+	background-color: #0f1a23;
+	margin-top: -1px;
+}
+.region-footer ul {
+	list-style-type: none;
+	line-height: 30px;
+}
+.footer2 {
+	background-color: #273139; 
+}
+.full-width1 {
+	background-color: #273139;
+}
+.main-banner img {
+	width: 100%;
+}
+.customer-service h6 {
+	font-size: 20px;	
+	color: #fff;
+}
+.customer-service {
+	border-bottom: 1px solid #4a4a4a;
+	margin-bottom: 20px;
+}
+.region-footer ul a {
+	color: #fff;
+	text-decoration: none;
+}
+.region-footer h3, .region-footer h1 {
+	margin-top: 0px;
+}
+.region-footer .faq, .region-footer .guarantees, .region-footer .return, .region-footer .register {
+	text-align: center;
+}
+.region-footer .faq, .region-footer .guarantees, .region-footer .return, .region-footer .first {
+	border-right: 1px solid	#4a4a4a;
+	height: 340px;
+}
+.region-footer .faq a, .region-footer .guarantees a, .region-footer .return a, .region-footer .register a {
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #c9dd03;
+	padding: 10px 35px;
+	border-radius: 3px;
+	margin-top: 1px;
+}
+.region-footer .faq h1, .region-footer .guarantees h1, .region-footer .return h1, .region-footer .register h1 {
+	color: #fff;
+	font-size: 24px;
+}
+.region-footer .faq h3, .region-footer .guarantees h3, .region-footer .return h3, .region-footer .register h3 {
+	color: #c9dd03;
+}
+.region-footer .faq p, .region-footer .guarantees p, .region-footer .return p, .region-footer .register p {
+	color: #fff;
+}
+.footer2 ul {
+	list-style-type: none;
+    line-height: 30px;
+}
+.footer2 ul a {
+	color: #fff;
+	text-decoration: none;
+}
+.region-footer2-2 {
+	margin-top: 90px;
+}
+.footersignin {
+	width: 65%;
+	margin:0 auto;
+	position: relative;
+  top: -17px;
+}
+.footersignin input[type='email'] {
+	width: 69%;
+	padding: 10px;
+}
+.footersignin input[type='submit'] {
+	width: 27%;
+	border-radius: 0px;
+	padding: 11px;
+	margin-bottom: 2px;
+  background-color: #c9dd03;
+}
+.footersignin h5 {
+	/*text-align: center;*/
+	color: #fff;
+}
+.footersignin h5 a {
+	color: #c9dd03;
+}
+.footer2 h1 {
+	font-size: 24px;
+	color: #fff;
+}
+.footer2 ul {
+	width: 60%;
+	float: left;
+}
+.backtotop {
+	text-align: center;
+}
+.backtotop i {
+  background-color: #000;
+  border: 1px solid #000;
+  padding: 0px 12px 6px 12px;
+  border-radius: 50px;
+  color: #C9DD03;
+  margin: 0 auto;
+}
+
