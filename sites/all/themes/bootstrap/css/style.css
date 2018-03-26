@@ -1,3 +1,6 @@
+.container {
+	width: 1220px;
+}
 h2 {
 	display: none;
 }
@@ -176,4 +179,55 @@ h2 {
   color: #C9DD03;
   margin: 0 auto;
 }
-
+.views-field-field-display-image-jacket img {
+	border: 1px solid #ececec;
+	width: 284px;
+	height: 290px;
+	padding: 10px;
+	border-radius:5px;
+	background-color: #ececec;
+}
+.views-field-field-display-image-shirt img {
+	border: 1px solid #ececec;
+	width: 284px;
+	height: 290px;
+	padding: 10px;
+	border-radius:5px;
+	background-color: #ececec;
+}
+.views-field-field-display-image-shoes img {
+	border: 1px solid #ececec;
+	width: 284px;
+	height: 290px;
+	padding: 10px;
+	border-radius:5px;
+	background-color: #ececec;
+}
+.views-field-field-display-image-trouser img {
+	border: 1px solid #ececec;
+	width: 284px;
+	height: 290px;
+	padding: 10px;
+	border-radius:5px;
+	background-color: #ececec;
+}
+.views-field-field-display-image-trouser, .views-field-field-display-image-shirt, .views-field-field-display-image-shoes, .views-field-field-display-image-jacket  {
+	margin-left: 4px;
+	margin-bottom: 50px;
+}
+.views-field-field-display-image-jacket img:hover {
+	transform: scale(1.03);
+	-webkit-transition: all .2s ease-in-out;
+}
+.views-field-field-display-image-shirt img:hover {
+	transform: scale(1.03);
+	-webkit-transition: all .2s ease-in-out;
+}
+.views-field-field-display-image-shoes img:hover {
+	transform: scale(1.03);
+	-webkit-transition: all .2s ease-in-out;
+}
+.views-field-field-display-image-trouser img:hover {
+	transform: scale(1.03);
+	-webkit-transition: all .2s ease-in-out;
+}

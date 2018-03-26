@@ -1,0 +1,30 @@
+<?php
+
+/*
+** Impelement hook_menu
+*/
+
+  // To create menu for web form
+function md_task_menu() {
+  $items = array();
+  $items['md_task'] = array(
+    'title' => 'Custom web form',
+    'page callback' => 'drupal_get_form',
+    'access arguments' => array('access content'),
+    'file' => 'md_task.inc',
+    'weight' => 8,
+    'page arguments' => array('md_task'),
+  );
+
+  // To create menu for result page..
+   $items['md_form/result'] = array(
+    'title' => 'Web form result.',
+    'page callback' => 'form_view_submissions', // Name of function that define on other page
+    'access arguments' => array('access content'),
+    'file' => 'md_result.inc', // Name of file
+    'weight' => 9,
+    // 'page arguments' => array('md_form'),
+  );
+  return $items;
+}
+

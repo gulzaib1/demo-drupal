@@ -1,0 +1,86 @@
+<?php
+
+/*
+ *Implement hook_schema().
+ */
+function md_task_schema() {
+  $schema = array();
+  $schema['md_task'] = array(
+    'description' => 'Information about node views.',
+    'fields' => array(
+      'user_id' => array(
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
+      'f_name' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => 0,
+      ),
+      'l_name' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => 0,
+        // 'description' => "The user's {uid}.f_name.",
+      ),
+      'email' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => 0,
+        // 'description' => "The user's {uid}.l_name.",
+      ),
+      'b_date' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => 0,
+        // 'default' => format_date(time(), 'custom', 'Y-m-d'),
+        // 'description' => "The user's {uid}.l_name.",
+      ),
+      'gender' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => 0,
+        // 'description' => "The user's {uid}.l_name.",
+      ),
+     'marital_state' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => 0,
+        // 'description' => "The user's {uid}.l_name.",
+      ),
+      'password' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => 0,        // 'description' => "The user's {uid}.l_name.",
+      ),
+      ),
+
+    'primary key' => array('user_id'),
+  );
+
+  return $schema;
+}
+
+/*
+ *Implements hook_update_N().
+ */
+function md_task_update_7000() {
+  drupal_install_schema('md_task');
+}
+
+
+
+
+
+
+
+
+
