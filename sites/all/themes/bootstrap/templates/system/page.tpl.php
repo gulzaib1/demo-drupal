@@ -139,7 +139,11 @@
 
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
-
+</div>
+<div class="slider">
+  <?php print render($page['slider']); ?>
+</div>
+<div class="main-container <?php print $container_class; ?>">
   <div class="row">
 
     <?php if (!empty($page['sidebar_first'])): ?>
@@ -147,6 +151,8 @@
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
+
+
 
     <section<?php print $content_column_class; ?>>
       <?php if (!empty($page['highlighted'])): ?>
@@ -157,7 +163,7 @@
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
-        <h1 class="page-header"><?php print $title; ?></h1>
+        <!-- <h1 class="page-header"><?php print $title; ?></h1> -->
       <?php endif; ?>
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
