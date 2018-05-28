@@ -214,19 +214,8 @@ h2 {
 	border-radius:5px;
 	background-color: #ececec;
 }
-.views-field-field-display-image5 img {
-	border: 1px solid #ececec;
-	width: 284px;
-	height: 290px;
-	padding: 10px;
-	border-radius:5px;
-	background-color: #ececec;
-}
-.col-first .views-field-field-display-image5 img {
-	width: 570px;	
-	margin-left: 50px;
-}
-.views-field-field-display-image-trouser, .views-field-field-display-image-shirt, .views-field-field-display-image-shoes, .views-field-field-display-image-jacket, .views-field-field-display-image5 {
+
+.views-field-field-display-image-trouser, .views-field-field-display-image-shirt, .views-field-field-display-image-shoes, .views-field-field-display-image-jacket {
 	margin-left: 4px;
 	margin-bottom: 50px;
 }
@@ -245,19 +234,6 @@ h2 {
 .views-field-field-display-image-trouser img:hover {
 	transform: scale(1.03);
 	-webkit-transition: all .2s ease-in-out;
-}
-.views-field-field-display-image5 img:hover {
-	transform: scale(1.03);
-	-webkit-transition: all .2s ease-in-out;
-}
-.front .top-slider {
-	background-image: url('../Hero-Background.jpg');
-	background-size: cover;
-	height: 793px;
-}
-.views-field-field-display-image5 {
- position: relative;
- top:307px;
 }
 .skewwhite1 {
   background-color: #fff;
@@ -308,3 +284,39 @@ h2 {
 #block-block-8 {
 	margin-top: -80px;
 } 
+.block-system-main img {
+	float: left;
+}
+
+/*=========Top Slide View============*/
+
+.views-field-field-display-image5 {
+	margin-left: 4px;
+}
+.views-field-field-display-image5 img {
+	border: 1px solid #ececec;
+	width: 284px;
+	height: 290px;
+	padding: 10px;
+	border-radius:5px;
+	background-color: #ececec;
+}
+.col-first .views-field-field-display-image5 img {
+	width: 570px;	
+	margin-left: 50px;
+}
+.views-field-field-display-image5 img:hover {
+	transform: scale(1.03);
+	-webkit-transition: all .2s ease-in-out;
+}
+.front .top-slider {
+	background-image: url('../Hero-Background.jpg');
+	background-size: cover;
+	height: 793px;
+}
+.views-field-field-display-image5 {
+ position: relative;
+ top:307px;
+}
+
+/*=========Top Slide View============*/
