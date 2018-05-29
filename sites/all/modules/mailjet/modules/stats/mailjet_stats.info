@@ -1,0 +1,15 @@
+name = Mailjet Stats
+description = "Add support for viewing MailJet Stats."
+core = 7.x
+php = 5.3
+package = MailJet
+dependencies[] = views_date_format_sql
+;dependencies[] = charts
+dependencies[] = views
+dependencies[] = mailjet
+
+; Information added by Drupal.org packaging script on 2018-04-26
+version = "7.x-2.17"
+core = "7.x"
+project = "mailjet"
+datestamp = "1524751689"
